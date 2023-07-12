@@ -1,53 +1,32 @@
-@import url('./css/footer.css');
-@import url('./css/header.css');
-@import url('./css/reset.css');
-
-.header-container {
-    width: 100vw;
+.hero1-container {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 80px 0;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    margin: 30px 0;
 }
 
-.infos-wrapper {
-    width: 80%;
+.call-to-action1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
 }
 
-.account-buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+.call-to-action1 p {
+    font-size: 46px;
+    font-weight: lighter;
+    max-width: 600px;
+    text-align: center;
+    margin: 30px 0px;
+    color: #EA5F00;
 }
 
-.btn {
-    margin: 0px 20px;
-    background-color: #EA5F00;
-    padding: 10px 10px;
-    border-radius: 10px;
+.call-to-action1 .btn {
+    padding: 10px 30px;
 }
 
-.btn a {
-    text-decoration: none;
-    color: #FFFF;
-    font-size: 12px;
-}
-
-.search-wrapper {
-    width: 75vw;
-    display: flex;
-    justify-content: center;
-}
-
-.search-wrapper input {
-    width: 30vw;
-    background-color: #F0F0F0;
-    border: 0;
-    border-radius: 10px;
-    padding: 5px 5px;
+.call-to-action1 .btn a {
+    font-size: 14px;
 }
