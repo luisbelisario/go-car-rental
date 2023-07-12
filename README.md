@@ -6,5 +6,5 @@ Every week I´ll be writing the new features of the project
 
 Week 1:
 
-    Day 1:
-        I started building the header. Today I practiced concepts such as flex box, importing google fonts, customizing buttons and positioning images
+Day 1:
+    I started building the header. Today I practiced concepts such as flex box, importing google fonts, customizing buttons and positioning images
