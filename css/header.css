@@ -26,6 +26,7 @@
     background-color: #EA5F00;
     padding: 10px 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .btn a {
