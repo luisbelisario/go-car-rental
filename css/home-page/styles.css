@@ -1,6 +1,6 @@
 /* HERO 1 */
 .hero1-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     margin: 80px 0;
     flex-direction: row;
@@ -42,7 +42,7 @@
 /* HERO 2 */
 
 .hero2-container {
-    width: 100vw;
+    width: 100%;
     background-image: url('/images/orange-background.png');
     background-size: cover;
     min-height: 80vh;
@@ -78,7 +78,7 @@
 }
 
 /* CONTACT AREA */
-.contact-form-container {
+.form-container {
     min-height: 70vh;
     display: flex;
     flex-direction: column;
@@ -122,4 +122,13 @@
 
 .form-wrapper textarea::-webkit-input-placeholder {
     font-family: 'Arial', sans-serif;
+}
+
+.form-btn {
+    padding: 12px 30px;
+    background-color: #EA5F00;
+    border: 0px;
+    border-radius: 8px;
+    color: #FFFF;
+    cursor: pointer;
 }
