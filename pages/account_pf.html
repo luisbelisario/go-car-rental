@@ -34,13 +34,13 @@
             <p>Cadastro Pessoa Física</p>
          </div>
          <form action="" class="form-wrapper">
-            <input type="text" name="name" id="" placeholder="Nome" minlength="3" required>
-            <input type="email" name="email" placeholder="Email" minlength="4" required>
+            <input type="text" name="name" id="name" placeholder="Nome" minlength="3" required>
+            <input type="email" name="email" id="email" placeholder="Email" minlength="4" required>
             <input type="text" name="rg" placeholder="RG">
-            <input type="text" name="cpf" placeholder="CPF" minlength="11" maxlength="14" required>
+            <input type="text" name="cpf" id="cpf" placeholder="CPF" minlength="11" maxlength="14" required>
             <input type="date" name="data-nasc" placeholder="Data de Nascimento">
             <div class="terms-container">
-                <input type="checkbox" name="terms" class="check-btn" required>
+                <input type="checkbox" name="terms" id="" class="check-btn" required>
                 <p class="termos__texto">Li e estou ciente quanto às condições de tratamento dos meus dados conforme
                     descrito na Política
                     de
@@ -50,5 +50,6 @@
          </form>
     </div>
     
+    <script src="/js/script.js" type="module"></script>
 </body>
 </html>
