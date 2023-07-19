@@ -1,22 +1,16 @@
 export default function isValidCpf(field) {
     const cpf = field.value.replace(/\.|-/g, "");
 
-    console.log(repeatedNumbers(cpf));
+    if(repeatedNumbers(cpf)) {
+        console.log("CPF inválido");
+        return false;
+    }
 }
 
 function repeatedNumbers(cpf) {
-    const repeated = [
-        '00000000000',
-        '11111111111',
-        '22222222222',
-        '33333333333',
-        '44444444444',
-        '55555555555',
-        '66666666666',
-        '77777777777',
-        '88888888888',
-        '99999999999'
-    ]
+    const repeated = /0{11}|1{11}|2{11}|3{11}|4{11}|5{11}|6{11}|7{11}|8{11}|9{11}/.test(cpf);
+    // esse método retorna true se a string tiver 11 ou mais caracteres repetidos
 
-    return repeated.includes(cpf);
+
+    return repeated;
 }
