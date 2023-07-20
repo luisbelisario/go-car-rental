@@ -1,7 +1,7 @@
 export default function isValidCpf(field) {
     const cpf = field.value.replace(/\.|-/g, "");
 
-    if(repeatedNumbers(cpf)) {
+    if(repeatedNumbers(cpf) || invalidFirstDigit(cpf) || invalidSecondDigit(cpf)) {
         console.log("CPF inválido");
         return false;
     }
@@ -13,4 +13,40 @@ function repeatedNumbers(cpf) {
 
 
     return repeated;
+}
+
+function invalidFirstDigit(cpf) {
+    let soma = 0;
+    let mult = 10;
+
+    for(let i = 0; i < 9; i++) {
+        soma += cpf[i] * mult;
+        mult--;
+    }
+
+    soma = (soma * 10) % 11;
+
+    if (soma == 10 || soma == 11) {
+        soma = 0;
+    }
+
+    return soma != cpf[9];
+}
+
+function invalidSecondDigit(cpf) {
+    let soma = 0;
+    let mult = 11;
+
+    for(let i = 0; i < 10; i++) {
+        soma += cpf[i] * mult;
+        mult--;
+    }
+
+    soma = (soma * 10) % 11;
+
+    if (soma == 10 || soma == 11) {
+        soma = 0;
+    }
+
+    return soma != cpf[10];
 }
