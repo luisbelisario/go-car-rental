@@ -9,5 +9,7 @@ export default function isValidAge(field) {
     }
         
 
-    return diffYears >= 18;
+    if (diffYears < 18) {
+        field.setCustomValidity('Under 18');
+    }
 }
