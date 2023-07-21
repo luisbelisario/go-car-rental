@@ -56,16 +56,22 @@ fieldset {
     align-items: flex-start;
     margin-top: 15px;
     margin-bottom: 25px;
+    position: relative;
+}
+
+.terms-check-btn {
+    max-width: 20px;
 }
 
 .terms-container span {
-    display: block;
-    min-width: 80px;
-}
-
-.check-btn {
-    max-width: 12px;
-}
+    position: absolute;
+    top: 30px;
+    right: 166px;
+    width: 400px;
+    height: 10px;
+    font-size: 14px;
+    color: red;
+}   
 
 .form-btn {
     padding: 12px 30px;
