@@ -34,18 +34,30 @@
             <p>Cadastro Pessoa Jurídica</p>
          </div>
          <form action="" class="form-wrapper">
-            <input type="text" name="name" id="" placeholder="Nome" minlength="3" required>
-            <input type="email" name="email" placeholder="Email" minlength="4" required>
-            <input type="text" name="cnpj" placeholder="CNPJ" minlength="14" maxlength="18" required>
-            <div class="terms-container">
-                <input type="checkbox" name="terms" class="check-btn" required>
-                <p class="termos__texto">Li e estou ciente quanto às condições de tratamento dos meus dados conforme
+            <fieldset>
+                <input type="text" name="name" id="name" placeholder="Nome" minlength="3" required>
+                <span class="msg-erro"></span>
+            </fieldset>
+            <fieldset>
+                <input type="email" name="email" id="email" placeholder="Email" minlength="4" required>
+                <span class="msg-erro"></span>
+            </fieldset>
+            <fieldset>
+                <input type="text" name="cnpj" id="cnpj" placeholder="CNPJ" minlength="14" maxlength="18" required>
+                <span class="msg-erro"></span>
+            </fieldset>
+            <fieldset class="terms-container">
+                <input type="checkbox" name="terms" id="" class="terms-check-btn" required>
+                <p class="terms-text">Li e estou ciente quanto às condições de tratamento dos meus dados conforme
                     descrito na Política
                     de
                     Privacidade</p>
-            </div>
+                <span class="msg-erro"></span>
+            </fieldset>
             <button class="form-btn" type="submit">CADASTRAR</button> 
          </form>
     </div>
+
+    <script src="/js/script-pj.js" type="module"></script>
 </body>
 </html>
