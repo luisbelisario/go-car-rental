@@ -19,4 +19,7 @@ Day 1:
     Finished HTML simple validations such as type, minlength, maxlength, required
 
 Day 2:
-    Started CPF customized validations, with regex and JS
+    Finished CPF customized validations, with regex and JS functions to validate first and second digit
+
+Day: 3:
+    Finished CNPJ customized validations, with regex and JS functions to validate first and second digit
