@@ -12,7 +12,7 @@ export default function isValidCnpj(field) {
 
 function repeatedNumbers(cnpj) {
     const repeated = /0{14}|1{14}|2{14}|3{14}|4{14}|5{14}|6{14}|7{14}|8{14}|9{14}/.test(cnpj);
-    // esse método retorna true se a string tiver 11 ou mais caracteres repetidos
+    // esse método retorna true se a string tiver 14 ou mais caracteres repetidos
 
     return repeated;
 }
