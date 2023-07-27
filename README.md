@@ -24,7 +24,7 @@ Results of the week:
 
 Day 1:
     Started building the account pages and styling. Today I worked with html and css concepts such as forms, flex box, positioning elements with vw
-and others. Next stpe will be the form validations
+and others. Next step will be the form validations
 
 Day 2:
     Finished building the account pages
