@@ -46,32 +46,7 @@ fieldset {
 
 .form-wrapper input::-webkit-input-placeholder {
     font-family: 'Arial', sans-serif;
-}
-
-.terms-container {
-    max-width: 31vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    position: relative;
-}
-
-.terms-check-btn {
-    max-width: 20px;
-}
-
-.terms-container span {
-    position: absolute;
-    top: 30px;
-    right: 166px;
-    width: 400px;
-    height: 10px;
-    font-size: 14px;
-    color: red;
-}   
+}  
 
 .form-btn {
     padding: 12px 30px;
