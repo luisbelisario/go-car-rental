@@ -59,7 +59,7 @@ Day 1:
     Including address fields in account pages of PF and PJ and excluding date of birth of the form because it will no longer be necessary.
 
 Day 2:
-    Validate and search address informations in ViaCep API, today I practiced concepts such as module imports, asyn/await (Asynchronous JS), fetch API searchs and automatic filling of forms
+    Validate and search address informations in ViaCep API, today I practiced concepts such as module imports, async/await (Asynchronous JS), fetch API searchs and automatic filling of forms
 
 
 Results of the week:
