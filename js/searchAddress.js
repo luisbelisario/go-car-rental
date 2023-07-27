@@ -22,7 +22,7 @@ export default async function searchAddress(field) {
         }
     } catch (error) {
         if(field.value == "") {
-            msgErro.textContent = 'CEP não pode estar em branco';
+            msgErro.textContent = 'O campo CEP não pode estar vazio';
         } else {
             msgErro.textContent = 'CEP inválido';
         }

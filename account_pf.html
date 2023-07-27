@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoCarRental</title>
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/account-page/styles.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/account-page/styles.css">
 </head>
 <body>
     <div class="header-container">
         <div class="infos-wrapper">
             <div class="logo">
-                <a href="/pages/index.html"><img src="../images/logo.png" alt="logo"></a> 
+                <a href="index.html"><img src="../images/logo.png" alt="logo"></a> 
             </div>
             <div class="account-buttons">
                 <div class="btn">
-                    <a href="/pages/account_pf.html">ABRIR CONTA PESSOA FÍSICA</a>
+                    <a href="account_pf.html">ABRIR CONTA PESSOA FÍSICA</a>
                 </div>
                 <div class="btn">
-                    <a href="/pages/account_pj.html">ABRIR CONTA PESSOA JURÍDICA</a>
+                    <a href="account_pj.html">ABRIR CONTA PESSOA JURÍDICA</a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
     </div>
     <div class="form-container">
          <div class="paragraph-container">
-            <p>Cadastro Pessoa Jurídica</p>
+            <p>Cadastro Pessoa Física</p>
          </div>
          <form action="" class="form-wrapper">
             <fieldset>
@@ -43,7 +43,10 @@
                 <span class="msg-erro"></span>
             </fieldset>
             <fieldset>
-                <input type="text" name="cnpj" id="cnpj" placeholder="CNPJ" minlength="14" maxlength="18" required>
+                <input type="text" name="rg" placeholder="RG">
+            </fieldset>
+            <fieldset>
+                <input type="text" name="cpf" id="cpf" placeholder="CPF" minlength="11" maxlength="14" required>
                 <span class="msg-erro"></span>
             </fieldset>
             <fieldset>
@@ -52,19 +55,15 @@
             </fieldset>
             <fieldset>
                 <input type="text" name="logradouro" id="logradouro" placeholder="Logradouro">
-                <span class="msg-erro"></span>
             </fieldset>
             <fieldset>
                 <input type="text" name="complemento" id="complemento" placeholder="Complemento">
-                <span class="msg-erro"></span>
             </fieldset>
             <fieldset>
                 <input type="text" name="bairro" id="bairro" placeholder="Bairro">
-                <span class="msg-erro"></span>
             </fieldset>
             <fieldset>
                 <input type="text" name="cidade" id="cidade" placeholder="Cidade">
-                <span class="msg-erro"></span>
             </fieldset>
             <fieldset>
                 <select id="estado" name="estado" aria-placeholder="UF">
@@ -101,7 +100,7 @@
             <button class="form-btn" type="submit">CADASTRAR</button> 
          </form>
     </div>
-
-    <script src="/js/script-pj.js" type="module"></script>
+    
+    <script src="/js/script-pf.js" type="module"></script>
 </body>
 </html>
