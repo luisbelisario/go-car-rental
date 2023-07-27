@@ -1,8 +1,13 @@
 import isValidCnpj from "/js/validateCnpj.js";
+import searchAddress from "/js/searchAddress.js";
+
 const formFields = document.querySelectorAll("[required]");
 
 formFields.forEach((field) => {
     field.addEventListener("blur", () => verifyField(field));
+    if (field.name == 'cep') {
+        field.addEventListener("focusout", () => searchAddress(field));
+    }
     field.addEventListener("invalid", e => e.preventDefault());
 })
 

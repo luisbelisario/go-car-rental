@@ -52,3 +52,20 @@ Results of the week:
 <img title="a title" alt="Alt text" src="/images/account-pf-valid.png">
 
 <img title="a title" alt="Alt text" src="/images/account-pj-valid.png">
+
+## Week 4:
+
+Day 1: 
+    Including address fields in account pages of PF and PJ and excluding date of birth of the form because it will no longer be necessary.
+
+Day 2:
+    Validate and search address informations in ViaCep API, today I practiced concepts such as module imports, asyn/await (Asynchronous JS), fetch API searchs and automatic filling of forms
+
+
+Results of the week:
+
+<img title="a title" alt="Alt text" src="/images/cep-valid1.png">
+
+<img title="a title" alt="Alt text" src="/images/cep-valid2.png">
+
+<img title="a title" alt="Alt text" src="/images/cep-valid3.png">
