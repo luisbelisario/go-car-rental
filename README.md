@@ -4,6 +4,10 @@
 This is a simple javascript project to train forms validation skills.
 Every week I´ll be writing the new features of the project
 
+# Live project:
+
+https://gocarrent.netlify.app/
+
 ## Week 1:
 
 Day 1:
