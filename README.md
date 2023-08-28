@@ -1,7 +1,7 @@
 # go-car-rental
 
 
-This is a simple javascript project to train forms validation skills.
+This is a javascript project to train forms validation skills.
 Every week I´ll be writing the new features of the project
 
 # Live project:
